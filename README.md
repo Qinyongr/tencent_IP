@@ -1,4 +1,4 @@
-大致把iOS版本 QQ 和 Wechat 在使用的服務器 ip 整理出來：了<br/>
+大致把iOS版本 QQ 和 Wechat 在使用的服務器 ip 整理出來了:<br/>
 从<code>/16</code>可以看出这些IP范围很广，很可能影响其他无辜IP， <br/>
 并且内容没经过检查，可能有不相关的IP。<hr/>
 对[Surge.conf](https://github.com/Qinyongr/tencent_IP/blob/master/Surge.conf)的详细说明如下：<br/>
@@ -11,4 +11,4 @@ Wechat = select, DIRECT, REJECT</pre>
 可将所有的<code>QQ</code>和<code>Wechat</code>替换成为需要的Group的名称即。可<hr/>
 此项目仍在开发：<br/>
 未来将会有范围更小的IP段和适合更多设备使用的配置文档，
-若发现IP有问题，欢迎提出。
+若发现IP有问题，欢迎[在此](https://github.com/Qinyongr/tencent_IP/issues)提出。
