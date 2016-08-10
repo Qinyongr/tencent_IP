@@ -6,6 +6,6 @@
 本段内容放在<code>[Rule]</code>下方</br>
 本段内容使用了自定义的Proxy Group，配置如下：<pre>
 QQ = select, DIRECT, REJECT
-Wechat = select, DIRECT, REJECT</pre><br/>
+Wechat = select, DIRECT, REJECT</pre>
 如果不要现有的<code>QQ</code>和<code>Wechat</code>的Proxy Group，</br>
 可将所有的<code>QQ</code>和<code>Wechat</code>替换成为需要的Group的名称即可
